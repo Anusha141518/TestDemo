@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.177" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="feature is to test search button in google" name="Check search button is working in google page" time="0.023">
+<system-out><![CDATA[
+Given user navigates to the google page.....................................passed
+When user wants to search for Automation testing............................passed
+And Click on search button..................................................passed
+Then user is able see the content of automation testing.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
