@@ -56,7 +56,7 @@ public class GoogleSearchSteps {
 	@Then("user is navigated to search results")
 	public void user_is_navigated_to_search_results() {
 		System.out.println("Insider Step - user is navigated to search results");
-		driver.getPageSource().contains("Google Images");
+		driver.getPageSource().contains("Google Images selected");
 		
 		driver.close();
 		driver.quit();
