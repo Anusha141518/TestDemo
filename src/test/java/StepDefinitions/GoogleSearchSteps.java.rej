@@ -1,0 +1,19 @@
+diff a/src/test/java/StepDefinitions/GoogleSearchSteps.java b/src/test/java/StepDefinitions/GoogleSearchSteps.java	(rejected hunks)
+@@ -44,7 +44,7 @@
+ 	public void user_enters_a_images_in_search_box(String txt) {
+ 		GP=new GooglePage(driver);
+ 		GP.enterTxt(txt);
+-		System.out.println("test-login code added");
++		
+ 	}
+ 
+ 	@And("hits enter")
+@@ -57,7 +57,7 @@
+ 	@Then("user is navigated to search results")
+ 	public void user_is_navigated_to_search_results() {
+ 		System.out.println("Insider Step - user is navigated to search results");
+-		driver.getPageSource().contains("Google Images selected");
++		driver.getPageSource().contains("Google Images");
+ 		
+ 		driver.close();
+ 		driver.quit();
