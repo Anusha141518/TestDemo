@@ -44,6 +44,7 @@ public class GoogleSearchSteps {
 	public void user_enters_a_images_in_search_box(String txt) {
 		GP=new GooglePage(driver);
 		GP.enterTxt(txt);
+		System.out.println("test-login code added");
 	}
 
 	@And("hits enter")
