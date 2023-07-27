@@ -36,7 +36,7 @@ public class GoogleSearchSteps {
 
 	@And("user is google search page")
 	public void user_is_google_search_page() {
-		System.out.println("Insider Step - user is google search page");
+		System.out.println("Insider Step - user is google search page navigation");
 		driver.get("https://www.google.com/");
 	}
 	
